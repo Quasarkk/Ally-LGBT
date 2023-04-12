@@ -2,17 +2,18 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    colors: {
-      'electric': '#1E9FB2',
-      'pink': '#FFE1F8',
-      'lblue': '#C6F7FF',
-      'llbue': '#E4FBFF',
-      'cream': '#FAE8CD',
-      'lgrey': '#F1F1F1',
-      'dgrey': '#777777',
-      'wgrey': '#353535',
+     },
+    extend: {
+      colors: {
+        'electric': '#1E9FB2',
+        'pink': '#FFE1F8',
+        'lblue': '#C6F7FF',
+        'llbue': '#E4FBFF',
+        'cream': '#FAE8CD',
+        'lgrey': '#F1F1F1',
+        'dgrey': '#777777',
+        'wgrey': '#353535',
     },
-    extend: {},
     fontFamily: {
       atma: ['atma'],
       poppins: ['Poppins', 'sans-serif'],
