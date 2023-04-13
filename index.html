@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
     <link href="dist/output.css" rel="stylesheet">
 
 
@@ -14,9 +13,29 @@
 
 <body>
     <section> <!-- Section 1 -->
-        <header></header>
-        <h1 class="text-5xl font-bold text-red-700">TEST</h1>
-    </section> 
+        <header>
+            <div class=" menu-nav header w-full flex flex-wrap bg-cream flex-row ">
+
+                <div class="logo"> <img src="assets/section 1/Logo footer.svg" alt="logo_header">
+                </div>
+
+                <nav>
+                    <ul class="nav-bar flex-col m-4 ">
+                        <li><a href="#nous"> A propos de nous</a></li>
+                        <li><a href="#actus">Actus</a></li>
+                        <li><a href="#donations"> Donations</a></li>
+                        <li><a href="#temoignages">Témoignages</a></li>
+                        <li><a href=""> Contact</a></li>
+                    </ul>
+                    <button class="burger">
+                        <span class="bar"></span>
+                    </button>
+                </nav>
+
+            </div>
+        </header>
+        <h1 class=""></h1>
+    </section>
     <section> <!-- Section 2 -->
 
     </section>
@@ -31,44 +50,47 @@
 
     <!-- Section 6 -->
     <section class="relative">
-        <img src="/assets/section 6/triangle pattern.svg" class="absolute inset-0 bg-cover ml-8 mt-10 -z-10 "
+        <img src="assets/section 6/triangle pattern.svg" class="absolute inset-0 bg-cover ml-8 mt-10 -z-10 "
             alt="background triangle pattern">
-
-
-        <h1 class="flex justify-center text-3xl text-electric p-8 mt-5 font-poppins ">On leur laisse la parole !</h1>
-        <div class=" container flex-col mx-auto py-8 px-4 lg:px-0 flex justify-center items-center">
+        <a name="temoignages"></a>
+        <h1 class="flex justify-center text-3xl text-electric p-6 mt-5 font-poppins  ">On leur laisse la parole !</h1>
+        <div class=" container flex-col mx-auto py-8 px-4  flex justify-center items-center">
 
             <div
-                class=" flex items-start justify-start font-atma text-base p-5 bg-cream rounded-3xl md:w-1/2  mb-5  text-lg leading-5">
-                <img src=" /assets/section 6/testimonial-1.svg" class="w-1/2 mx-4 mt-16 " alt="photo de la temoin">
-                <p class="mx-3 flex-col"> <span class="font-police text-5xl "> “ </span>j'ai eu la chance de découvrir
+                class=" flex items-start justify-start font-atma  text-base p-5 bg-cream rounded-3xl md:w-1/2 mb-5  text-lg leading-5">
+                <img src=" assets/section 6/testimonial-1.svg" class=" w-1/2 mx-4 mt-12 lg:mt-2 "
+                    alt="photo de la temoin">
+                <div class="m-4 lg:mr-24 flex-col">
+                    <span class="font-police text-3xl ">“ </span>j'ai eu la chance de découvrir
                     Ally dans une période compliquée de ma vie, ça m'a permit d'exprimer
-                    mes difficultés avec des gens qui me comprennent<br>
-                    <span class="font-police text-5xl"> „ </span>
+                    mes difficultés avec des gens qui me comprennent
+                    <span class="font-police absolute text-3xl ml-8">” </span><br>
                     <span class=" leading-10 m-10"> Mathilda</span>
-                </p>
+                </div>
             </div>
 
             <div
-                class=" flex items-start justify-start font-atma text-base p-5 bg-cream rounded-3xl md:w-1/2   mb-5 my-16  text-lg leading-5 ">
-                <img src="/assets/section 6/testimonial-2.svg" class="w-1/2 mx-4 mt-16" alt="photo de temoin">
-                <p class="m-3 flex-col"><span class="font-police text-5xl"> “ </span> J'ai dû fuir l'Egypte car mes
+                class=" flex items-start justify-start font-atma text-base my-12 p-5 bg-cream rounded-3xl md:w-1/2 lg:  mb-5  text-lg leading-5 ">
+                <img src="assets/section 6/testimonial-2.svg" class="w-1/2 mx-4 mt-12 lg:mt-2" alt="photo de temoin">
+                <div class="m-3 lg:mr-24 flex-col">
+                    <span class="font-police  text-3xl"> “ </span> J'ai dû fuir l'Egypte car mes
                     parents n'acceptaient pas ma sexualité. J'ai pu trouver une réelle aide
-                    ici et je suis aujourd'hui entouré de personnes qui m'aiment<br>
-                    <span class="font-police text-5xl"> „</span>
+                    ici et je suis aujourd'hui entouré de personnes qui m'aiment
+                    <span class="font-police absolute text-3xl  ml-8 "> ”</span><br>
                     <span class="leading-10 m-10"> Ali</span>
-                </p>
+                </div>
             </div>
 
             <div
-                class="flex items-start justify-start font-atma text-base p-5 bg-cream rounded-3xl md:w-1/2 mb-5 my-16 text-lg leading-5 ">
-                <img src="/assets/section 6/testimonial-3.svg" class="w-1/2 mx-4 mt-16" alt="photo de temoin">
-                <p class="m-3 flex-col"> <span class="font-police text-5xl"> “ </span>Depuis tout petit je me sentais
+                class="flex items-start justify-start font-atma text-base my-12 p-5 bg-cream rounded-3xl md:w-1/2 mb-5  text-lg leading-5 ">
+                <img src="assets/section 6/testimonial-3.svg" class="w-1/2 mx-4 mt-12 lg:mt-2" alt="photo de temoin">
+                <div class="m-3 lg:mr-24 flex-col">
+                    <span class="font-police  text-3xl"> “ </span>Depuis tout petit je me sentais
                     garçon, cette asso m'a permit de me rendre compte que j'étais
-                    transgenre. Ally m'a aidé dans mes démarches.<br>
-                    <span class="font-police text-5xl"> „ </span>
+                    transgenre. Ally m'a aidé dans mes démarches.
+                    <span class="font-police absolute text-3xl ml-8"> ” </span><br>
                     <span class="leading-10 m-10"> Lucas</span>
-                </p>
+                </div>
             </div>
         </div>
 

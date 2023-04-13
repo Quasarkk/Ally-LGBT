@@ -2,7 +2,6 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-     },
     extend: {
       colors: {
         'electric': '#1E9FB2',
@@ -13,12 +12,13 @@ module.exports = {
         'lgrey': '#F1F1F1',
         'dgrey': '#777777',
         'wgrey': '#353535',
+      },
+      fontFamily: {
+        atma: ['atma'],
+        poppins: ['Poppins', 'sans-serif'],
+        police: ['ABeeZee', 'sans-serif'],
+      }
     },
-    fontFamily: {
-      atma: ['atma'],
-      poppins: ['Poppins', 'sans-serif'],
-      police: ['ABeeZee', 'sans-serif'],
-    }
   },
   plugins: [],
 }
