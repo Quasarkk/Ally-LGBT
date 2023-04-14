@@ -3,7 +3,10 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
-
+      
+          fontSize: {
+            'xxs': '0.6rem'  
+          },
           backgroundImage: {
             "kissme": "url('/assets/section4/kiss.png')",
           },
@@ -16,6 +19,7 @@ module.exports = {
             'lgrey': '#F1F1F1',
             'dgrey': '#777777',
             'wgrey': '#353535',
+            'lred': '#FF3535',
           },
         },
         fontFamily: {
