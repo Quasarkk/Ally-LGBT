@@ -1,3 +1,6 @@
+@import url(https://fonts.bunny.net/css?family=atma:500);
+@import url(https://fonts.bunny.net/css?family=poppins:100,200,300,400,500,600,700,800,900);
+@import url(https://fonts.bunny.net/css?family=abeezee:400|abhaya-libre:800);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
