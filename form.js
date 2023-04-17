@@ -1,3 +1,8 @@
+ document.getElementById("navBar").onclick = function(){
+  document.getElementById("navContent").classList.toggle("hidden");
+ }
+
+
 //let name1 = document.getElementById(Prénom)
 //let name2 = document.getElementById(Nom)
 //let message = document.getElementById(texte)
@@ -33,3 +38,4 @@ var form = document.getElementById("my-form");
       });
     }
     form.addEventListener("submit", handleSubmit)
+
