@@ -687,7 +687,6 @@ video {
   clear: none;
 }
 
-<<<<<<< Updated upstream
 .m-10{
   margin: 2.5rem;
 }
@@ -862,7 +861,6 @@ video {
 }
 
 .box-border{
-=======
 .-mt-\[0\.5rem\] {
   margin-top: -0.5rem;
 }
@@ -944,7 +942,6 @@ video {
 }
 
 .box-border {
->>>>>>> Stashed changes
   box-sizing: border-box;
 }
 
@@ -1043,7 +1040,6 @@ video {
   display: none;
 }
 
-<<<<<<< Updated upstream
 .h-11{
   height: 2.75rem;
 }
@@ -1121,7 +1117,6 @@ video {
 }
 
 .flex-shrink{
-=======
 .h-0 {
   height: 0px;
 }
@@ -1139,7 +1134,6 @@ video {
 }
 
 .flex-shrink {
->>>>>>> Stashed changes
   flex-shrink: 1;
 }
 
@@ -1180,8 +1174,8 @@ video {
 }
 
 <<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
+ 
+ 
 .-translate-x-full{
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1224,7 +1218,7 @@ video {
 }
 
 .\!transform{
-=======
+ 
 .-rotate-3 {
   --tw-rotate: -3deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1241,7 +1235,7 @@ video {
 }
 
 .\!transform {
->>>>>>> Stashed changes
+ 
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
 
@@ -2109,11 +2103,11 @@ video {
   border-width: 1px;
 }
 
-<<<<<<< Updated upstream
+ 
 .border-x{
-=======
+ 
 .border-x {
->>>>>>> Stashed changes
+ 
   border-left-width: 1px;
   border-right-width: 1px;
 }
@@ -2127,15 +2121,15 @@ video {
   border-bottom-width: 1px;
 }
 
-<<<<<<< Updated upstream
+ 
 .border-e{
-=======
+ 
 .border-b-\[12rem\] {
   border-bottom-width: 12rem;
 }
 
 .border-e {
->>>>>>> Stashed changes
+ 
   border-inline-end-width: 1px;
 }
 
@@ -2143,16 +2137,14 @@ video {
   border-left-width: 1px;
 }
 
-<<<<<<< Updated upstream
 .border-r{
   border-right-width: 1px;
 }
 
 .border-s{
-=======
 .border-l-\[23\.5rem\] {
   border-left-width: 23.5rem;
-}
+}}
 
 .border-r {
   border-right-width: 1px;
@@ -2163,7 +2155,6 @@ video {
 }
 
 .border-s {
->>>>>>> Stashed changes
   border-inline-start-width: 1px;
 }
 
@@ -2171,9 +2162,7 @@ video {
   border-top-width: 1px;
 }
 
-<<<<<<< Updated upstream
 .border-solid{
-=======
 .border-t-\[12rem\] {
   border-top-width: 12rem;
 }
@@ -2195,7 +2184,7 @@ video {
 }
 
 .border-solid {
->>>>>>> Stashed changes
+ 
   border-style: solid;
 }
 
@@ -2219,7 +2208,6 @@ video {
   border-style: none;
 }
 
-<<<<<<< Updated upstream
 .border-lgrey{
   --tw-border-opacity: 1;
   border-color: rgb(241 241 241 / var(--tw-border-opacity));
@@ -2246,7 +2234,6 @@ video {
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\]{
-=======
 .border-transparent {
   border-color: transparent;
 }
@@ -2270,12 +2257,10 @@ video {
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
->>>>>>> Stashed changes
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-<<<<<<< Updated upstream
 .bg-cream{
   --tw-bg-opacity: 1;
   background-color: rgb(250 232 205 / var(--tw-bg-opacity));
@@ -2316,7 +2301,6 @@ video {
 }
 
 .decoration-slice{
-=======
 .bg-llbue {
   --tw-bg-opacity: 1;
   background-color: rgb(228 251 255 / var(--tw-bg-opacity));
@@ -2333,7 +2317,7 @@ video {
 }
 
 .decoration-slice {
->>>>>>> Stashed changes
+>>
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
 }
@@ -2353,19 +2337,18 @@ video {
           box-decoration-break: clone;
 }
 
-<<<<<<< Updated upstream
+ 
 .bg-cover{
   background-size: cover;
 }
 
 .bg-fixed{
-=======
+ 
 .bg-contain {
   background-size: contain;
 }
 
 .bg-fixed {
->>>>>>> Stashed changes
   background-attachment: fixed;
 }
 
@@ -2459,7 +2442,7 @@ video {
      object-fit: scale-down;
 }
 
-<<<<<<< Updated upstream
+ 
 .p-2{
   padding: 0.5rem;
 }
@@ -2549,13 +2532,13 @@ video {
 }
 
 .text-left{
-=======
+ 
 .pb-20 {
   padding-bottom: 5rem;
 }
 
 .text-left {
->>>>>>> Stashed changes
+  Stashed changes
   text-align: left;
 }
 
@@ -2611,7 +2594,7 @@ video {
   vertical-align: super;
 }
 
-<<<<<<< Updated upstream
+ 
 .font-atma{
   font-family: atma;
 }
@@ -2625,18 +2608,18 @@ video {
 }
 
 .text-2xl{
-=======
+ 
 .text-2xl {
->>>>>>> Stashed changes
+  Stashed changes
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-<<<<<<< Updated upstream
+ 
 .text-3xl{
-=======
+ 
 .text-3xl {
->>>>>>> Stashed changes
+ 
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
@@ -2679,8 +2662,8 @@ video {
 }
 
 <<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
+ 
+ 
 .font-medium{
   font-weight: 500;
 }
@@ -2695,13 +2678,13 @@ video {
 }
 
 .uppercase{
-=======
+ 
 .font-semibold {
   font-weight: 600;
 }
 
 .uppercase {
->>>>>>> Stashed changes
+ 
   text-transform: uppercase;
 }
 
@@ -2798,16 +2781,16 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
-<<<<<<< Updated upstream
+ 
 .text-dgrey{
-=======
+ 
 .text-dgrey {
->>>>>>> Stashed changes
+ 
   --tw-text-opacity: 1;
   color: rgb(119 119 119 / var(--tw-text-opacity));
 }
 
-<<<<<<< Updated upstream
+ 
 .text-electric{
   --tw-text-opacity: 1;
   color: rgb(30 159 178 / var(--tw-text-opacity));
@@ -2819,16 +2802,16 @@ video {
 }
 
 .text-wgrey{
-=======
+ 
 .text-wgrey {
->>>>>>> Stashed changes
+ 
   --tw-text-opacity: 1;
   color: rgb(53 53 53 / var(--tw-text-opacity));
 }
 
 <<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
+ 
+ 
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2836,9 +2819,9 @@ video {
 
 >>>>>>> d2815753139c08cd6bec5124954a74b416e6bdbe
 .underline{
-=======
+ 
 .underline {
->>>>>>> Stashed changes
+ 
   text-decoration-line: underline;
 }
 
@@ -3196,10 +3179,10 @@ video {
   content: var(--tw-content);
 }
 
-<<<<<<< Updated upstream
+ 
 @media (min-width: 640px){
   .sm\:container{
-=======
+ 
 .clip-path {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
@@ -3217,7 +3200,7 @@ video {
 
 @media (min-width: 640px) {
   .sm\:container {
->>>>>>> Stashed changes
+ 
     width: 100%;
   }
 
@@ -3443,7 +3426,7 @@ video {
   }
 <<<<<<< HEAD
 };
-=======
+ 
 }
 
     
