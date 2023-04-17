@@ -4,3 +4,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .clip-path {
+
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
+    }
+    .clip-path-triangle {
+        clip-path: polygon(102% 4%, 0% 53%,112% 111%);
+    }
+
+    .clip-path-triangle2 {
+        clip-path: polygon(0% 0%, 101% 50%, 0% 100%)
+    }
+};
