@@ -26,7 +26,13 @@ module.exports = {
           atma: ['atma'],
           poppins: ['Poppins', 'sans-serif'],
           police: ['ABeeZee', 'sans-serif'],
-        }
+        },
+        rotate: {
+          'rollme': '25deg'
       },
-      plugins: [],
+      borderWidth: {
+        'size':'20rem'
+      }
+      plugins: [], 
     }
+  }
