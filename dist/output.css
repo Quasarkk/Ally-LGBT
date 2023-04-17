@@ -2804,15 +2804,6 @@ video {
   outline-width: 0px;
 }
 
-.active\:border-x-0:active{
-  border-left-width: 0px;
-  border-right-width: 0px;
-}
-
-.active\:border-t-0:active{
-  border-top-width: 0px;
-}
-
 .active\:outline-0:active{
   outline-width: 0px;
 }
