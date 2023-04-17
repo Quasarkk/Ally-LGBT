@@ -722,6 +722,11 @@ video {
   margin-right: 1rem;
 }
 
+.mx-8{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -740,12 +745,21 @@ video {
   margin-left: -24rem;
 }
 
+<<<<<<< Updated upstream
 .-mt-\[12rem\]{
   margin-top: -12rem;
 }
 
 .-mt-\[5\.5rem\]{
   margin-top: -5.5rem;
+=======
+.-mt-\[4rem\]{
+  margin-top: -4rem;
+}
+
+.-mt-\[6rem\]{
+  margin-top: -6rem;
+>>>>>>> Stashed changes
 }
 
 .-mt-\[7rem\]{
@@ -796,16 +810,24 @@ video {
   margin-left: 2rem;
 }
 
+<<<<<<< Updated upstream
 .ml-\[3\.5rem\]{
   margin-left: 3.5rem;
 }
 
+=======
+>>>>>>> Stashed changes
 .ml-\[4rem\]{
   margin-left: 4rem;
 }
 
+<<<<<<< Updated upstream
 .ml-\[5rem\]{
   margin-left: 5rem;
+=======
+.ml-\[6rem\]{
+  margin-left: 6rem;
+>>>>>>> Stashed changes
 }
 
 .mr-14{
@@ -872,6 +894,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-56{
+  margin-top: 14rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -884,8 +910,13 @@ video {
   margin-top: 2rem;
 }
 
+<<<<<<< Updated upstream
 .-mt-\[12\.5rem\]{
   margin-top: -12.5rem;
+=======
+.mt-\[2rem\]{
+  margin-top: 2rem;
+>>>>>>> Stashed changes
 }
 
 .box-border{
@@ -2064,10 +2095,13 @@ video {
   border-top-width: 7rem;
 }
 
+<<<<<<< Updated upstream
 .border-r-\[18rem\]{
   border-right-width: 18rem;
 }
 
+=======
+>>>>>>> Stashed changes
 .border-solid{
   border-style: solid;
 }
@@ -3060,11 +3094,6 @@ video {
 .hover\:bg-lgrey:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(241 241 241 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-neutral-400:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(163 163 163 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-white:hover{
