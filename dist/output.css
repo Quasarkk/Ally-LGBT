@@ -752,10 +752,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-44{
-  margin-bottom: 11rem;
-}
-
 .mb-5{
   margin-bottom: 1.25rem;
 }
@@ -969,10 +965,6 @@ video {
 
 .h-16{
   height: 4rem;
-}
-
-.h-20{
-  height: 5rem;
 }
 
 .h-28{
@@ -2424,11 +2416,6 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-xs{
