@@ -2,7 +2,6 @@
   document.getElementById("navContent").classList.toggle("hidden");
  }
 
-
 //let name1 = document.getElementById(Prénom)
 //let name2 = document.getElementById(Nom)
 //let message = document.getElementById(texte)

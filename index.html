@@ -8,13 +8,14 @@
     <link href="dist/output.css" rel="stylesheet">
     <script src="form.js" defer></script>
     <title>Ally</title>
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <section> <!-- Section 1 -->
-        <header class="fixed w-full">
-            <nav class="flex justify-between items-center flex-wrap p-4  mx-auto bg-cream shadow-lg ">
+        <header class=" absolute w-full">
+            <nav class="flex  justify-between  items-center flex-wrap p-4  mx-auto bg-cream shadow-lg ">
                 <div class="flex items-center flex-shrinks-0 ">
                     <img src="assets/section 1/Logo-header.svg" class="w-20 lg:ml-20" alt="logo_header">
                 </div>
@@ -28,12 +29,12 @@
                 </div>
 
                 <div id="navContent"
-                    class="  w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block lg:flex  ">
+                    class=" w-full block flex-grow items-center lg:flex lg:items-center lg:w-auto hidden lg:block lg:flex">
                     <ul
                         class="text-dgrey text-end mt-5 lg:flex-grow lg:flex lg:justify-center leading-loose lg:space-x-10 lg:font-bold ">
-                        <li><a href="#nous" class="hover:bg-lgrey px-4 py-2 rounded-2xl "> A propos de nous</a></li>
-                        <li><a href="#actus" class="hover:bg-lgrey px-4 py-2 rounded-2xl">Actus</a></li>
-                        <li><a href="#donations" class="hover:bg-lgrey px-4 py-2 rounded-2xl"> Donations</a></li>
+                        <li><a href="#Nous" class="hover:bg-lgrey px-4 py-2 rounded-2xl "> A propos de nous</a></li>
+                        <li><a href="#Actus" class="hover:bg-lgrey px-4 py-2 rounded-2xl">Actus</a></li>
+                        <li><a href="#Donations" class="hover:bg-lgrey px-4 py-2 rounded-2xl"> Donations</a></li>
                         <li><a href="#temoignages" class="hover:bg-lgrey px-4 py-2 rounded-2xl">Témoignages</a></li>
                         <li><a href="#contact" class="hover:bg-lgrey px-4 py-2 rounded-2xl"> Contact</a></li>
                     </ul>
@@ -44,15 +45,17 @@
         <h1 class=""></h1>
     </section>
     <section> <!-- Section 2 -->
+        <a name="Nous"></a>
         <div class="flex justify-center items-center">
-            <h1 class="text-center absolute text-3xl font-bold text-dgrey">A propos de nous</h1>
-            <img src="assets\section 2\triangle-pattern.svg" alt="triangle-pattern" class="bg-contain" />
+            <h1 class="text-center absolute text-3xl font-bold text-dgrey -z-10  ">A propos de nous</h1>
+            <img src="assets\section 2\triangle-pattern.svg" alt="triangle-pattern" class="bg-contain -z-20" />
         </div>
         <img src="/assets/section 2/section 2.svg" class="w-full">
-    </section> 
+    </section>
     <section> <!-- Section 3 -->
 
         <section class="w-full m-2"> <!-- Section 3 -->
+            <a name="Actus"></a>
             <h2 class="text-4xl text-electric font-bold font-poppins text-center pb-20">Actus</h2>
             <div class="flex justify-center mb-10 mx-2">
                 <img src="/assets/section 3/photo-1.svg"></img>
@@ -126,6 +129,7 @@
             </svg>
         </section>
         <section> <!-- Section 4 -->
+            <a name="Donations"></a>
             <h2 class="text-center mt-2 text-2xl text-electric font-bold font-poppins ">
                 Apportez votre pierre <br> à l'édifice !
             </h2>
@@ -227,7 +231,7 @@
             </div>
         </section>
         <Section><!--Section6 -->
-            <section class="relative">
+            <section>
                 <img src="assets/section 6/triangle pattern.svg" class="absolute inset-0 bg-cover ml-8 mt-10 -z-10 "
                     alt="background triangle pattern">
                 <a name="temoignages"></a>
@@ -285,7 +289,8 @@
                         <div class="flex flex-col items-center tracking-tight">
                             <img src="/assets/section 7/flag1.svg">
                             <div class="flex flex-col justify-center w-32">
-                                <span class="text-red-600 font-semibold text-lg leading-4">45%</span> n’ont jamais parlé de
+                                <span class="text-red-600 font-semibold text-lg leading-4">45%</span> n’ont jamais parlé
+                                de
                                 leur orientation à un
                                 <span class="text-red-600 font-semibold text-lg leading-4">medecin</span>
                             </div>
@@ -301,57 +306,59 @@
                         <div class="flex flex-col items-center tracking-tight">
                             <img src="/assets/section 7/flag3.svg">
                             <div class="flex flex-col justify-center w-32">
-                                <span class="text-red-600 font-semibold text-lg leading-4">18%</span> font une tentative de
+                                <span class="text-red-600 font-semibold text-lg leading-4">18%</span> font une tentative
+                                de
                                 <span class="text-red-600 font-semibold text-lg leading-4">suicide</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="absolute mt-56 mx-8" >
+                <div class="absolute mt-56 mx-8">
                     <img src="/assets/section 7/legenda.svg">
                 </div>
                 <div class="flex justify-center py-10 ">
                     <img src="/assets/section 7/world-map.svg">
                 </div>
-        </section>
-                <footer class="text-[10px] bg-cream">
-                    <div class="flex items-center text-[10px] justify-around">
-                        <div class="pl-2">
-                            <img src="/assets/section 7/Logofooter.svg">
-                        </div>
-                        <div class="border border-solid border-neutral-500 h-11"></div>
-                        <div class="flex flex-col items-center">
-                            <p>Newsletter</p>
-                            <form class="pt-1">
-                                <div class="mail">
-                                    <input
-                                        class="bg-cream border border-b-neutral-400 focus-visible:outline-0 active:outline-0"
-                                        type="email" id="email" name="email" placeholder="Type-in your e-mail">
-                                </div>
-                                <div class="flex justify-center mt-1">
-                                    <button class="btn-mail" type="button up">sign up</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="border border-solid border-neutral-500 h-11"></div>
-                        <div class="flex flex-wrap w-28 pt-2 md:w-40">
-                            <ul>
-                                <li><a href="#">Conditions générales d'utilisation</a></li>
-                                <li><a href="#">Politique de vie privée</a></li>
-                                <li><a href="#">Gestion des cookies</a></li>
-                                <li><a href="#">Accessibilité</a></li>
-                                <li><a href="#">Mentions légales</a></li>
-                            </ul>
-                        </div>
+            </section>
+            <footer class="text-[10px] bg-cream">
+                <div class="flex items-center text-[10px] justify-around">
+                    <div class="pl-2">
+                        <img src="/assets/section 7/Logofooter.svg">
                     </div>
-                    <div class="ml-6">
-                        © Ally, tous droits réservés
+                    <div class="border border-solid border-neutral-500 h-11"></div>
+                    <div class="flex flex-col items-center">
+                        <a name="contact"></a>
+                        <p>Newsletter</p>
+                        <form class="pt-1">
+                            <div class="mail">
+                                <input
+                                    class="bg-cream border border-b-neutral-400 focus-visible:outline-0 active:outline-0"
+                                    type="email" id="email" name="email" placeholder="Type-in your e-mail">
+                            </div>
+                            <div class="flex justify-center mt-1">
+                                <button class="btn-mail" type="button up">sign up</button>
+                            </div>
+                        </form>
                     </div>
-                </footer>
-                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-                <script>
-                    AOS.init();
-                </script>
+                    <div class="border border-solid border-neutral-500 h-11"></div>
+                    <div class="flex flex-wrap w-28 pt-2 md:w-40">
+                        <ul>
+                            <li><a href="#">Conditions générales d'utilisation</a></li>
+                            <li><a href="#">Politique de vie privée</a></li>
+                            <li><a href="#">Gestion des cookies</a></li>
+                            <li><a href="#">Accessibilité</a></li>
+                            <li><a href="#">Mentions légales</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ml-6">
+                    © Ally, tous droits réservés
+                </div>
+            </footer>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
 </body>
 
 </html>
