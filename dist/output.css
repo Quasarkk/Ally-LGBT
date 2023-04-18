@@ -745,21 +745,12 @@ video {
   margin-left: -24rem;
 }
 
-<<<<<<< Updated upstream
 .-mt-\[12rem\]{
   margin-top: -12rem;
 }
 
 .-mt-\[5\.5rem\]{
   margin-top: -5.5rem;
-=======
-.-mt-\[4rem\]{
-  margin-top: -4rem;
-}
-
-.-mt-\[6rem\]{
-  margin-top: -6rem;
->>>>>>> Stashed changes
 }
 
 .-mt-\[7rem\]{
@@ -810,24 +801,16 @@ video {
   margin-left: 2rem;
 }
 
-<<<<<<< Updated upstream
 .ml-\[3\.5rem\]{
   margin-left: 3.5rem;
 }
 
-=======
->>>>>>> Stashed changes
 .ml-\[4rem\]{
   margin-left: 4rem;
 }
 
-<<<<<<< Updated upstream
 .ml-\[5rem\]{
   margin-left: 5rem;
-=======
-.ml-\[6rem\]{
-  margin-left: 6rem;
->>>>>>> Stashed changes
 }
 
 .mr-14{
@@ -908,15 +891,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-<<<<<<< Updated upstream
-.-mt-\[12\.5rem\]{
-  margin-top: -12.5rem;
-=======
-.mt-\[2rem\]{
-  margin-top: 2rem;
->>>>>>> Stashed changes
 }
 
 .box-border{
@@ -1677,18 +1651,6 @@ video {
   --tw-space-x-reverse: 1;
 }
 
-.divide-x > :not([hidden]) ~ :not([hidden]){
-  --tw-divide-x-reverse: 0;
-  border-right-width: calc(1px * var(--tw-divide-x-reverse));
-  border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
-}
-
-.divide-y > :not([hidden]) ~ :not([hidden]){
-  --tw-divide-y-reverse: 0;
-  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
-  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
-}
-
 .divide-y-reverse > :not([hidden]) ~ :not([hidden]){
   --tw-divide-y-reverse: 1;
 }
@@ -2041,67 +2003,22 @@ video {
   border-top-right-radius: 0.25rem;
 }
 
-.border{
-  border-width: 1px;
-}
-
-.border-x{
-  border-left-width: 1px;
-  border-right-width: 1px;
-}
-
-.border-y{
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
-
-.border-b{
-  border-bottom-width: 1px;
-}
-
 .border-b-\[7rem\]{
   border-bottom-width: 7rem;
-}
-
-.border-e{
-  border-inline-end-width: 1px;
-}
-
-.border-l{
-  border-left-width: 1px;
 }
 
 .border-l-\[16rem\]{
   border-left-width: 16rem;
 }
 
-.border-r{
-  border-right-width: 1px;
-}
-
 .border-r-\[16rem\]{
   border-right-width: 16rem;
-}
-
-.border-s{
-  border-inline-start-width: 1px;
-}
-
-.border-t{
-  border-top-width: 1px;
 }
 
 .border-t-\[7rem\]{
   border-top-width: 7rem;
 }
 
-<<<<<<< Updated upstream
-.border-r-\[18rem\]{
-  border-right-width: 18rem;
-}
-
-=======
->>>>>>> Stashed changes
 .border-solid{
   border-style: solid;
 }

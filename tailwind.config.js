@@ -32,7 +32,7 @@ module.exports = {
       },
       borderWidth: {
         'size':'20rem'
-      }
+      },
       plugins: [], 
     }
   }
