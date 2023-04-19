@@ -1,5 +1,9 @@
  document.getElementById("navBar").onclick = function(){
-  document.getElementById("navContent").classList.toggle("hidden");
+    document.getElementById("navContent").classList.toggle("h-44");
+    document.getElementById("navContent").classList.toggle("h-0");
+    document.getElementById("cross").classList.toggle("hidden");
+    document.getElementById("burger").classList.toggle("hidden");
+    console.log (document.getElementById("navContent").classList)
  }
 
 //let name1 = document.getElementById(Prénom)
@@ -7,8 +11,8 @@
 //let message = document.getElementById(texte)
 //let eMail = document.getElementById(Mail)
 
+
 var form = document.getElementById("my-form");
-    
     async function handleSubmit(event) {
       event.preventDefault();
       var status = document.getElementById("my-form-status");
@@ -37,4 +41,3 @@ var form = document.getElementById("my-form");
       });
     }
     form.addEventListener("submit", handleSubmit)
-

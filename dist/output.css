@@ -963,6 +963,10 @@ video {
   display: none;
 }
 
+.h-0{
+  height: 0px;
+}
+
 .h-11{
   height: 2.75rem;
 }
@@ -985,6 +989,22 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-1{
+  height: 0.25rem;
+}
+
+.h-96{
+  height: 24rem;
+}
+
+.h-32{
+  height: 8rem;
+}
+
+.h-44{
+  height: 11rem;
 }
 
 .w-1\/2{
@@ -2494,6 +2514,11 @@ video {
   color: rgb(30 159 178 / var(--tw-text-opacity));
 }
 
+.text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
 .text-red-600{
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
@@ -2502,21 +2527,6 @@ video {
 .text-wgrey{
   --tw-text-opacity: 1;
   color: rgb(53 53 53 / var(--tw-text-opacity));
-}
-
-.text-gray-600{
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-.text-gray-200{
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
-}
-
-.text-gray-400{
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -2853,6 +2863,12 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-\[height\]{
+  transition-property: height;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .delay-200{
   transition-delay: 200ms;
 }
@@ -2867,6 +2883,10 @@ video {
 
 .duration-500{
   transition-duration: 500ms;
+}
+
+.duration-700{
+  transition-duration: 700ms;
 }
 
 .ease-in{
@@ -2886,10 +2906,34 @@ video {
   content: var(--tw-content);
 }
 
-@layer utilities
-    .triangle {
+.triangle {
   -webkit-clip-path: polygon(0 0, 50% 50%, 0 100%);
           clip-path: polygon(0 0, 50% 50%, 0 100%);
+  #nav-icon3 span:nth-child(1) {
+    top: 0px;
+  }
+  #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+    top: 18px;
+  }
+  #nav-icon3 span:nth-child(4) {
+    top: 36px;
+  }
+  #nav-icon3.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+  #nav-icon3.open span:nth-child(2) {
+    transform: rotate(45deg);
+  }
+  #nav-icon3.open span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  #nav-icon3.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
 }
 
 @media (min-width: 640px){
@@ -3071,10 +3115,6 @@ video {
 
   .lg\:mt-2{
     margin-top: 0.5rem;
-  }
-
-  .lg\:block{
-    display: block;
   }
 
   .lg\:flex{
