@@ -716,11 +716,6 @@ video {
   margin-right: 0.5rem;
 }
 
-.mx-8{
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -852,10 +847,6 @@ video {
   margin-top: 1.25rem;
 }
 
-.mt-56{
-  margin-top: 14rem;
-}
-
 .mt-8{
   margin-top: 2rem;
 }
@@ -975,6 +966,10 @@ video {
   height: 1rem;
 }
 
+.h-44{
+  height: 11rem;
+}
+
 .h-5{
   height: 1.25rem;
 }
@@ -989,10 +984,6 @@ video {
 
 .h-screen{
   height: 100vh;
-}
-
-.h-44{
-  height: 11rem;
 }
 
 .w-2\/5{
@@ -1039,24 +1030,12 @@ video {
   width: 130px;
 }
 
-.w-auto{
-  width: auto;
-}
-
 .w-full{
   width: 100%;
 }
 
 .w-screen{
   width: 100vw;
-}
-
-.w-\[40\%\]{
-  width: 40%;
-}
-
-.max-w-xl{
-  max-width: 36rem;
 }
 
 .flex-shrink{
@@ -3120,10 +3099,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:m-auto{
-    margin: auto;
-  }
-
   .sm\:underline{
     text-decoration-line: underline;
   }
@@ -3152,18 +3127,58 @@ video {
     top: 750px;
   }
 
-  .lg\:z-10{
-    z-index: 10;
+  .lg\:top-\[200px\]{
+    top: 200px;
   }
 
-  .lg\:my-20{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  .lg\:top-\[600px\]{
+    top: 600px;
+  }
+
+  .lg\:bottom-\[600px\]{
+    bottom: 600px;
+  }
+
+  .lg\:bottom-\[200px\]{
+    bottom: 200px;
+  }
+
+  .lg\:bottom-\[400px\]{
+    bottom: 400px;
+  }
+
+  .lg\:bottom-\[300px\]{
+    bottom: 300px;
+  }
+
+  .lg\:bottom-12{
+    bottom: 3rem;
+  }
+
+  .lg\:top-12{
+    top: 3rem;
+  }
+
+  .lg\:top-4{
+    top: 1rem;
+  }
+
+  .lg\:top-2{
+    top: 0.5rem;
+  }
+
+  .lg\:z-10{
+    z-index: 10;
   }
 
   .lg\:mx-auto{
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .lg\:my-20{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   .lg\:ml-20{
@@ -3178,16 +3193,16 @@ video {
     margin-top: 0px;
   }
 
+  .lg\:mt-12{
+    margin-top: 3rem;
+  }
+
   .lg\:mt-2{
     margin-top: 0.5rem;
   }
 
   .lg\:mt-4{
     margin-top: 1rem;
-  }
-
-  .lg\:mt-12{
-    margin-top: 3rem;
   }
 
   .lg\:flex{
@@ -3198,12 +3213,48 @@ video {
     display: none;
   }
 
+  .lg\:h-\[50rem\]{
+    height: 50rem;
+  }
+
+  .lg\:h-\[800px\]{
+    height: 800px;
+  }
+
+  .lg\:h-\[400px\]{
+    height: 400px;
+  }
+
+  .lg\:h-\[600px\]{
+    height: 600px;
+  }
+
   .lg\:w-0{
     width: 0px;
   }
 
+  .lg\:w-2{
+    width: 0.5rem;
+  }
+
+  .lg\:w-4\/5{
+    width: 80%;
+  }
+
+  .lg\:w-\[200px\]{
+    width: 200px;
+  }
+
+  .lg\:w-\[240px\]{
+    width: 240px;
+  }
+
   .lg\:w-\[90\%\]{
     width: 90%;
+  }
+
+  .lg\:w-\[900px\]{
+    width: 900px;
   }
 
   .lg\:w-auto{
@@ -3214,52 +3265,28 @@ video {
     width: 100%;
   }
 
-  .lg\:w-4\/5{
-    width: 80%;
+  .lg\:w-\[200\%\]{
+    width: 200%;
   }
 
-  .lg\:w-3\/5{
-    width: 60%;
-  }
-
-  .lg\:w-\[900px\]{
-    width: 900px;
-  }
-
-  .lg\:w-\[800px\]{
-    width: 800px;
-  }
-
-  .lg\:w-\[450px\]{
-    width: 450px;
-  }
-
-  .lg\:w-\[300px\]{
-    width: 300px;
-  }
-
-  .lg\:w-\[350px\]{
-    width: 350px;
-  }
-
-  .lg\:w-\[200px\]{
-    width: 200px;
-  }
-
-  .lg\:w-\[250px\]{
-    width: 250px;
-  }
-
-  .lg\:w-\[150px\]{
-    width: 150px;
-  }
-
-  .lg\:w-\[240px\]{
-    width: 240px;
+  .lg\:w-\[100\%\]{
+    width: 100%;
   }
 
   .lg\:flex-grow{
     flex-grow: 1;
+  }
+
+  .lg\:scale-150{
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:scale-125{
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .lg\:items-center{
@@ -3276,25 +3303,21 @@ video {
     margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .lg\:text-\[4rem\]{
-    font-size: 4rem;
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
-  .lg\:text-\[6rem\]{
-    font-size: 6rem;
+  .lg\:text-\[4rem\]{
+    font-size: 4rem;
   }
 
   .lg\:text-\[5rem\]{
     font-size: 5rem;
   }
 
-  .lg\:text-\[3rem\]{
-    font-size: 3rem;
-  }
-
-  .lg\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .lg\:text-\[6rem\]{
+    font-size: 6rem;
   }
 
   .lg\:text-lg{
@@ -3302,60 +3325,29 @@ video {
     line-height: 1.75rem;
   }
 
+  .lg\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
   .lg\:font-bold{
     font-weight: 700;
+  }
+
+  .lg\:leading-none{
+    line-height: 1;
   }
 
   .lg\:opacity-0{
     opacity: 0;
   }
 
-  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(0_0_0_\/_40\%\)\]{
-    text-shadow: 8px 8px 8px rgba(0 0 0 / 40%);
-  }
-
-  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(255_255_255_\/_80\%\)\]{
-    text-shadow: 8px 8px 8px rgba(255 255 255 / 80%);
-  }
-
-  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(255_255_255_\/_40\%\)\]{
-    text-shadow: 8px 8px 8px rgba(255 255 255 / 40%);
-  }
-
-  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(255_255_255_\/_20\%\)\]{
-    text-shadow: 8px 8px 8px rgba(255 255 255 / 20%);
-  }
-
-  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(255_255_255_\/_30\%\)\]{
-    text-shadow: 8px 8px 8px rgba(255 255 255 / 30%);
-  }
-
-  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(255_255_255_\/_50\%\)\]{
-    text-shadow: 8px 8px 8px rgba(255 255 255 / 50%);
-  }
-
-  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(30_159_178_\/_50\%\)\]{
-    text-shadow: 8px 8px 8px rgba(30 159 178 / 50%);
-  }
-
-  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(250_232_205_\/_50\%\)\]{
-    text-shadow: 8px 8px 8px rgba(250 232 205 / 50%);
-  }
-
-  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(250_232_205_\/_70\%\)\]{
-    text-shadow: 8px 8px 8px rgba(250 232 205 / 70%);
-  }
-
-  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(250_232_205_\/_40\%\)\]{
-    text-shadow: 8px 8px 8px rgba(250 232 205 / 40%);
-  }
-
-  .lg\:\[text-shadow\:_8px_8px_20px_rgba\(250_232_205_\/_40\%\)\]{
-    text-shadow: 8px 8px 20px rgba(250 232 205 / 40%);
-  }
-
   .lg\:\[text-shadow\:_8px_8px_70px_rgba\(250_232_205_\/_40\%\)\]{
     text-shadow: 8px 8px 70px rgba(250 232 205 / 40%);
+  }
+
+  .lg\:\[text-shadow\:_8px_8px_8px_rgba\(0_0_0_\/_40\%\)\]{
+    text-shadow: 8px 8px 8px rgba(0 0 0 / 40%);
   }
 }
 
