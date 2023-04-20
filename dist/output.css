@@ -1043,6 +1043,10 @@ video {
   width: 100vw;
 }
 
+.w-3{
+  width: 0.75rem;
+}
+
 .max-w-xl{
   max-width: 36rem;
 }
@@ -2063,11 +2067,6 @@ video {
   border-color: rgb(241 241 241 / var(--tw-border-opacity));
 }
 
-.border-neutral-300{
-  --tw-border-opacity: 1;
-  border-color: rgb(212 212 212 / var(--tw-border-opacity));
-}
-
 .border-neutral-500{
   --tw-border-opacity: 1;
   border-color: rgb(115 115 115 / var(--tw-border-opacity));
@@ -2441,6 +2440,10 @@ video {
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-extralight{
+  font-weight: 200;
 }
 
 .font-medium{
