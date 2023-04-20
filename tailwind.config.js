@@ -27,12 +27,6 @@ module.exports = {
           poppins: ['Poppins', 'sans-serif'],
           police: ['ABeeZee', 'sans-serif'],
         },
-        rotate: {
-          'rollme': '25deg'
       },
-      borderWidth: {
-        'size':'20rem'
-      },
-      plugins: [], 
+      plugins: [],
     }
-  }
