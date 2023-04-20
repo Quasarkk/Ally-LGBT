@@ -42,9 +42,11 @@
         </section>
         <section class=""> <!-- Section 2 -->
             <div class="snap-start">
-                <h2 class="text-4xl text-electric font-bold font-poppins text-center pt-28">A propos de nous</h2>
+                <h2 class="text-4xl text-electric font-bold font-poppins text-center mt-10">A propos de nous</h2>
+                <video src="/assets/section 2/video_Ally_ok.mp4" muted loop autoplay class="mt-4"></video>
+                <h3 class="font-atma text-center text-4xl mt-8 relative"> Par des LGBT, pour des LGBT</h3>
                 <div class="flex justify-center items-center ">
-                    <img src="assets\section 2\triangle-pattern.svg" alt="triangle-pattern" class="bg-contain" />
+                    <img src="assets\section 2\triangle-pattern.svg" alt="triangle-pattern" class="bg-contain absolute -z-10" />
                 </div>
                 <img src="/assets/section 2/section 2.svg" class="w-full">
             </div>
@@ -345,30 +347,39 @@
                         <img src="/assets/section 7/world-map.svg">
                     </div>
                 </section>
-                <footer class="text-[10px] bg-cream">
+                <footer class="text-[10px] bg-cream font-poppins">
                     <div class="flex items-center text-[10px] justify-around">
                         <div class="pl-2">
                             <img src="/assets/section 7/Logofooter.svg">
                         </div>
-                        <div class="flex justify-center mt-1">
-                            <button class="btn-mail" type="button up">sign up</button>
+                        <div class="border border-solid border-neutral-500 h-11"></div>
+                        <div class="flex flex-col items-center text-gray-600">
+                            <p>Newsletter</p>
+                            <form class="pt-1">
+                                <div class="mail">
+                                    <input class="bg-cream border border-b-neutral-400 focus-visible:outline-0 active:outline-0"
+                                        type="email" id="email" name="email" placeholder="Type-in your e-mail">
+                                </div>
+                                <div class="flex justify-center mt-1">
+                                    <button class="btn-mail" type="button up">sign up</button>
+                                </div>
+                            </form>
                         </div>
                         <div class="border border-solid border- border-neutral-500 h-11"></div>
-                        <div class="flex flex-wrap w-28 pt-2 md:w-40">
+                        <div class="flex flex-wrap w-28 pt-2 md:w-40 text-gray-600">
                             <ul>
-                                <li><a href="#">Conditions générales d'utilisation</a></li>
-                                <li><a href="#">Politique de vie privée</a></li>
+                                <li><a href="#">CGU</a></li>
+                                <li><a href="#">Vie privée</a></li>
                                 <li><a href="#">Gestion des cookies</a></li>
                                 <li><a href="#">Accessibilité</a></li>
                                 <li><a href="#">Mentions légales</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="ml-6">
+                    <div class="ml-6 text-gray-600">
                         © Ally, tous droits réservés
                     </div>
-                </div>
-            </footer>
+                </footer>
             <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
             <script>
                 AOS.init();
