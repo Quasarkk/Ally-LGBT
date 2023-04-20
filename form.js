@@ -1,5 +1,5 @@
  document.getElementById("navBar").onclick = function(){
-    document.getElementById("navContent").classList.toggle("h-");
+    document.getElementById("navContent").classList.toggle("h-44");
     document.getElementById("navContent").classList.toggle("h-0");
     document.getElementById("cross").classList.toggle("hidden");
     document.getElementById("burger").classList.toggle("hidden");
