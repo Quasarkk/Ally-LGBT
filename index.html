@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="m-0 p-0">
+<html lang="fr" class="m-0 p-0 scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <title>Ally</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body class="m-0 p-0 w-screen">
+<body class="m-0 p-0 w-screen ">
     <div class="h-screen w-screen">
         <section class=""> <!-- Section 1 -->
             <header>
@@ -29,17 +29,18 @@
                     <div id="navContent" class="w-full lg:items-center h-0 transition-[height] duration-300 ease-in-out lg:flex overflow-hidden lg:overflow-visible lg:w-4/5 lg:mx-auto">
                         <ul
                             class="text-dgrey text-end mt-5 lg:flex-grow lg:flex lg:justify-center leading-loose lg:space-x-10 lg:font-bold ">
-                            <li><a href="#nous" class="hover:bg-lgrey px-4 py-2 rounded-2xl "> A propos de nous</a></li>
-                            <li><a href="#actus" class="hover:bg-lgrey px-4 py-2 rounded-2xl">Actus</a></li>
-                            <li><a href="#donations" class="hover:bg-lgrey px-4 py-2 rounded-2xl"> Donations</a></li>
-                            <li><a href="#temoignages" class="hover:bg-lgrey px-4 py-2 rounded-2xl">Témoignages</a></li>
-                            <li><a href="#contact" class="hover:bg-lgrey px-4 py-2 rounded-2xl"> Contact</a></li>
+                            <li><a href="#nous" class="hover:bg-lgrey px-4 py-2 rounded-2xl scroll-smooth"> A propos de nous</a></li>
+                            <li><a href="#actus" class="hover:bg-lgrey px-4 py-2 rounded-2xl scroll-smooth">Actus</a></li>
+                            <li><a href="#Donations" class="hover:bg-lgrey px-4 py-2 rounded-2xl scroll-smooth">Donations</a></li>
+                            <li><a href="#temoignages" class="hover:bg-lgrey px-4 py-2 rounded-2xl scroll-smooth">Témoignages</a></li>
+                            <li><a href="#contact" class="hover:bg-lgrey px-4 py-2 rounded-2xl scroll-smooth">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
             </header>
         </section>
         <section class=""> <!-- Section 2 -->
+            <a name="nous"></a>
             <div class="">
                 <h2 class="text-4xl text-electric font-bold font-poppins text-center mt-10 lg:mt-4 w-full lg:absolute lg:z-10 lg:text-[4rem] lg:[text-shadow:_8px_8px_8px_rgba(0_0_0_/_40%)] lg:opacity-0">A propos de nous</h2>
                 <video src="/assets/section 2/video_Ally_ok.mp4" muted loop autoplay class="mt-4 w-full lg:mt-0 lg:relative"></video>
@@ -54,6 +55,7 @@
             <div class="">
                 <h2 class="text-4xl text-electric font-bold font-poppins text-center pb-20 lg:text-[5rem] lg:mt-12">Nos Actus</h2>
                 <div class="flex justify-center mb-10 mx-2">
+                    <a name="actus"></a>
                     <div class="flex flex-col justify-center pl-3 gap-y-1  lg:w-4/5 lg:max-w-3/5">
                         <div class="lg:w-[900px] lg:mx-auto flex group lg:my-20"> <!-- Article 1 -->
                             <img src="/assets/section 3/photo-1.svg"
@@ -144,6 +146,7 @@
             </div>
         </section>
         <section> <!-- Section 4 -->
+            <a name="Donations"></a>
             <h2 class="text-4xl text-electric font-bold font-poppins text-center lg:text-[5rem] lg:leading-none">
                 Apportez votre pierre <br> à l'édifice !
             </h2>
@@ -193,57 +196,55 @@
                 <img src="/assets/section4/Calque 4.png" class="absolute bottom-0 right-0 z-10 lg:h-[600px]" alt="">
                 <img src="/assets/section4/wave.svg" class="w-full absolute bottom-0 z-1">
             </div>
-            <img src="assets/section 4/triangle pattern.svg" class="-z-10 absolute mt-16 lg:w-[50%]">
+            <img src="assets/section 6/triangle pattern.svg" class="-z-10 absolute mt-16 lg:w-[50%]">
         </section>
         <section> <!-- Section 5 -->
-            <div class=" -start">
-                <img src="assets\section5\pattern.png" class=" -z-10 absolute mt-16">
-                <h2 class="text-center mt-16 text-2xl text-electric font-semibold font-poppins">
-                    Contactez nous
-                </h2>
-                <form id="my-form" action="https://formspree.io/f/mjvdprlg" method="POST"
-                    class="flex flex-col m-auto w-80 bg-cream rounded-2xl p-2.5 mt-2.5">
-                    <div class="flex justify-center">
-                        <input type="text" placeholder="Prénom" name="Prénom"
-                            class="w-20 mr-4 mb-4 bg-lgrey rounded-lg shadow-lg font-poppins">
-                        <input type="text" placeholder="Nom" name="Nom"
-                            class="w-20 mb-4 rounded-lg bg-lgrey shadow-lg font-poppins">
-                    </div>
-                    <input type="email" name="email" placeholder="Mail"
-                        class=" w-64 flex m-auto bg-lgrey rounded-lg mb-4 shadow-lg font-poppins">
-                    <textarea type="text" name="message" placeholder="Message"
-                        class=" h-16 w-64 m-auto mb-4 rounded-lg bg-lgrey shadow-lg font-poppins"></textarea>
-                    <input type="submit" id="my-form-button"
-                        class="flex m-auto rounded-lg bg-lgrey w-20 cursor-pointer hover:bg-white font-poppins"
-                        value="Envoyer">
-                </form>
-                <p id="my-form-status" class="flex justify-center font-poppins"></p>
-                <div class="w-80 border-b flex m-auto mt-16 border-lgrey"></div>
-                <h2 class="text-center mt-4 text-2xl text-electric mt-20 mb-16 font-semibold font-poppins">
-                    Nos partenaires
-                </h2>
-                <div class="flex justify-center mb-24">
-                    <div class="mr-6">
-                        <a href="https://www.ars.sante.fr/" target="_blank"><img src="assets/section5/ars.svg"
-                                class="cursor-pointer hover:animate-pulse "></a>
-                        <p class="text-center font-poppins">
-                            L'ARS
-                        </p>
-                    </div>
-                    <div class="mr-6">
-                        <a href="https://le-refuge.org/" target="_blank"><img src="assets/section5/Le refuge.svg"
-                                class="cursor-pointer hover:animate-pulse"></a>
-                        <p class="text-center font-poppins">
-                            Le Refuge
-                        </p>
-                    </div>
-                    <div>
-                        <a href="https://www.aides.org/" target="_blank"><img src="assets/section5/aides.svg"
-                                class="cursor-pointer hover:animate-pulse"></a>
-                        <p class="text-center font-poppins">
-                            Aides
-                        </p>
-                    </div>
+            <a name="contact"></a>
+            <h2 class="text-center mt-16 text-2xl text-electric font-semibold font-poppins lg:text-[5rem] lg:my-40 lg:mt-0">
+                Contactez nous
+            </h2>
+            <form id="my-form" action="https://formspree.io/f/mjvdprlg" method="POST"
+                class="flex flex-col m-auto w-80 bg-cream rounded-2xl p-2.5 mt-2.5 lg:w-3/5 ">
+                <div class="flex justify-center">
+                    <input type="text" placeholder="Prénom" name="Prénom" data-aos="flip-up"
+                        class="w-20 mr-4 mb-4 bg-lgrey rounded-lg shadow-lg font-poppins lg:w-52">
+                    <input type="text" placeholder="Nom" name="Nom" data-aos="flip-up"
+                        class="w-20 mb-4 rounded-lg bg-lgrey shadow-lg font-poppins lg:w-52">
+                </div>
+                <input type="email" name="email" placeholder="Mail" data-aos="flip-up"
+                    class=" w-64 flex m-auto bg-lgrey rounded-lg mb-4 shadow-lg font-poppins lg:w-[27rem] ">
+                <textarea type="text" name="message" placeholder="Message" data-aos="flip-up"
+                    class=" h-16 w-64 m-auto mb-4 rounded-lg bg-lgrey shadow-lg font-poppins lg:w-[40rem] lg:h-36"></textarea>
+                <input type="submit" id="my-form-button"
+                    class="flex m-auto rounded-lg bg-lgrey w-20 cursor-pointer hover:bg-white font-poppins"
+                    value="Envoyer">
+            </form>
+            <p id="my-form-status" class="flex justify-center font-poppins"></p>
+            <div class="w-80 border-b flex m-auto mt-12 border-lgrey"></div>
+            <h2 class="text-center mt-4 text-2xl text-electric mt-20 mb-16 font-semibold font-poppins lg:text-4xl">
+                Nos partenaires
+            </h2>
+            <div class="flex justify-center mb-16">
+                <div class="mr-6 sm:mr-20 md:mr-40 lg:mr-80">
+                    <a href="https://www.ars.sante.fr/" target="_blank"><img src="assets/section5/ars.svg"
+                            class="cursor-pointer hover:animate-pulse lg:w-[120px]" data-aos="zoom-in"></a>
+                    <p class="text-center font-poppins lg:text-xl lg:mt-4">
+                        L'ARS
+                    </p>
+                </div>
+                <div class="mr-6 sm:mr-20 md:mr-40 lg:mr-80">
+                    <a href="https://le-refuge.org/" target="_blank"><img src="assets/section5/Le refuge.svg"
+                            class="cursor-pointer hover:animate-pulse lg:w-[120px]" data-aos="zoom-in"></a>
+                    <p class="text-center font-poppins lg:text-xl lg:mt-4">
+                        Le Refuge
+                    </p>
+                </div>
+                <div>
+                    <a href="https://www.aides.org/" target="_blank"><img src="assets/section5/aides.svg"
+                            class="cursor-pointer hover:animate-pulse lg:w-[120px]" data-aos="zoom-in"></a>
+                    <p class="text-center font-poppins lg:text-xl lg:mt-4">
+                        Aides
+                    </p>
                 </div>
             </div>
         </section>
@@ -253,16 +254,16 @@
                     <img src="assets/section 6/triangle pattern.svg" class="absolute inset-0 bg-cover ml-8 mt-10 -z-10 lg:w-[50%]"
                         alt="background triangle pattern">
                     <a name="temoignages"></a>
-                    <h1 class="flex justify-center text-3xl text-electric p-6 mt-5 font-poppins  ">On leur laisse la parole
+                    <h1 class="flex justify-center text-3xl text-electric p-6 mt-5 font-poppins lg:text-4xl font-semibold">On leur laisse la parole
                         !
                     </h1>
                     <div class=" container flex-col mx-auto py-8 px-4  flex justify-center items-center">
 
                         <div
-                            class="flex items-start justify-start font-atma text-base p-5 bg-cream rounded-3xl md:w-1/2 mb-5 text-lg leading-5">
+                            class="flex items-start justify-start font-atma text-base p-5 bg-cream rounded-3xl md:w-1/2 mb-5 text-lg leading-5 ">
                             <img src=" assets/section 6/testimonial-1.svg" class="w-2/5 my-auto lg:mt-2"
                                 alt="photo de la temoin">
-                            <div class="m-3 lg:mr-24 w-3/5 flex-col ml-8">
+                            <div class="m-3 lg:mr-24 w-3/5 flex-col ml-8 lg:my-auto">
                                 <span class="font-police text-3xl ">“ </span>j'ai eu la chance de découvrir
                                 Ally dans une période compliquée de ma vie, ça m'a permit d'exprimer
                                 mes difficultés avec des gens qui me comprennent
@@ -275,7 +276,7 @@
                             class=" flex items-start justify-start font-atma text-base my-12 p-5 bg-cream rounded-3xl md:w-1/2 lg: mb-5 text-lg leading-5 ">
                             <img src="assets/section 6/testimonial-2.svg" class="w-2/5 my-auto lg:mt-2"
                                 alt="photo de temoin">
-                            <div class="m-3 lg:mr-24 w-3/5 flex-col ml-8">
+                            <div class="m-3 lg:mr-24 w-3/5 flex-col ml-8 lg:my-auto">
                                 <span class="font-police text-3xl"> “ </span> J'ai dû fuir l'Egypte car mes
                                 parents n'acceptaient pas ma sexualité. J'ai pu trouver une réelle aide
                                 ici et je suis aujourd'hui entouré de personnes qui m'aiment
@@ -288,7 +289,7 @@
                             class="flex items-start justify-start font-atma text-base my-12 p-5 bg-cream rounded-3xl md:w-1/2 mb-5 text-lg leading-5 ">
                             <img src="assets/section 6/testimonial-3.svg" class="w-2/5 my-auto lg:mt-2"
                                 alt="photo de temoin">
-                            <div class="m-3 lg:mr-24 w-3/5 flex-col ml-8">
+                            <div class="m-3 lg:mr-24 w-3/5 flex-col ml-8 lg:my-auto">
                                 <span class="font-police  text-3xl"> “ </span>Depuis tout petit je me sentais
                                 garçon, cette asso m'a permit de me rendre compte que j'étais
                                 transgenre. Ally m'a aidé dans mes démarches.
@@ -306,7 +307,7 @@
                     <div class="font-poppins text-xs">
                         <div class="flex justify-around leading-5 lg:w-4/5 lg:mx-auto">
                             <div class="flex flex-col items-center tracking-tight text-center ">
-                                <img src="/assets/section 7/flag1.svg" >
+                                <img src="/assets/section 7/flag1.svg" class="lg:w-[120px]">
                                 <div class="flex flex-col justify-center w-32 lg:w-60">
                                     <span class="text-red-600 font-semibold text-lg leading-4 pt-2 lg:text-2xl">45%</span>
                                     <p class="font-poppins font-extralight lg:text-xl">n’ont jamais parlé de leur orientation à un</p> 
@@ -314,7 +315,7 @@
                                 </div>
                             </div>
                             <div class="flex flex-col items-center tracking-tight text-center">
-                                <img src="/assets/section 7/flag2.svg">
+                                <img src="/assets/section 7/flag2.svg" class="lg:w-[120px]">
                                 <div class="flex flex-col justify-center w-32 lg:w-60">
                                     <span class="text-red-600 font-semibold text-base leading-4 pt-2 lg:text-2xl">56%</span>
                                     <p class="font-poppins font-extralight lg:text-xl">des personnes transgenres font des</p> 
@@ -322,7 +323,7 @@
                                 </div>
                             </div>
                             <div class="flex flex-col items-center tracking-tight text-center">
-                                <img src="/assets/section 7/flag3.svg">
+                                <img src="/assets/section 7/flag3.svg" class="lg:w-[120px]">
                                 <div class="flex flex-col justify-center w-32 lg:w-60">
                                     <span class="text-red-600 font-semibold text-lg leading-4 pt-2 lg:text-2xl">18%</span>
                                     <p class="font-poppins font-extralight lg:text-xl"> font une tentative
